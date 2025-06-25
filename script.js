@@ -1,0 +1,1 @@
+// Currently no JS functionality; placeholder for future enhancements.
