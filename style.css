@@ -70,3 +70,25 @@ footer {
   color: white;
   margin-top: 20px;
 }
+
+#projects { padding: 40px 20px; }
+.project-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit,minmax(280px,1fr));
+  gap: 20px;
+}
+.project-card {
+  background: #f9f9f9;
+  padding: 20px;
+  border-radius: 8px;
+  transition: box-shadow .2s;
+}
+.project-card:hover {
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+.project-card a {
+  color: #1a0dab;
+  text-decoration: none;
+  margin-right: 10px;
+}
+
